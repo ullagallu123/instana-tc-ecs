@@ -3,12 +3,12 @@ environment = "sandbox"
 project_name = "instana"
 
 common_tags = {
-  Terraform    = true
-  Creator      = "SIVARAMAKRISHNA KONKA"
-  Project_Name = "Instana"
-  Environment  = "sandbox"
-  Module       = "VPC"
-  Deployment_Environment   = "ECS"
+  Terraform              = true
+  Creator                = "SIVARAMAKRISHNA KONKA"
+  Project_Name           = "Instana"
+  Environment            = "sandbox"
+  Module                 = "VPC"
+  Deployment_Environment = "ECS"
 }
 
 availability_zones = ["ap-south-1a", "ap-south-1b"]
