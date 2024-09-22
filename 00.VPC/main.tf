@@ -1,4 +1,4 @@
-module "vpc" {
+module "vpc_ecs" {
   source               = "git::https://github.com/ullagallu123/vpc.git?ref=main"
   environment          = var.environment
   project_name         = var.project_name
